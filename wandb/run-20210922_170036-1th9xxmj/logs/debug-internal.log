@@ -1,0 +1,163 @@
+2021-09-22 17:00:38,214 INFO    MainThread:375951 [internal.py:wandb_internal():89] W&B internal server running at pid: 375951, started at: 2021-09-22 17:00:38.214534
+2021-09-22 17:00:38,216 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: check_version
+2021-09-22 17:00:38,217 INFO    WriterThread:375951 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/run-1th9xxmj.wandb
+2021-09-22 17:00:38,218 DEBUG   SenderThread:375951 [sender.py:send():182] send: header
+2021-09-22 17:00:38,219 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: check_version
+2021-09-22 17:00:38,491 DEBUG   SenderThread:375951 [sender.py:send():182] send: run
+2021-09-22 17:00:38,496 DEBUG   SenderThread:375951 [git.py:repo():33] git repository is invalid
+2021-09-22 17:00:39,029 INFO    SenderThread:375951 [dir_watcher.py:__init__():169] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/files
+2021-09-22 17:00:39,029 INFO    SenderThread:375951 [sender.py:_start_run_threads():743] run started: 1th9xxmj with start time 1632310236
+2021-09-22 17:00:39,029 DEBUG   SenderThread:375951 [sender.py:send():182] send: summary
+2021-09-22 17:00:39,029 INFO    SenderThread:375951 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-22 17:00:39,030 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: run_start
+2021-09-22 17:00:39,041 DEBUG   HandlerThread:375951 [meta.py:__init__():40] meta init
+2021-09-22 17:00:39,041 DEBUG   HandlerThread:375951 [meta.py:__init__():54] meta init done
+2021-09-22 17:00:39,041 DEBUG   HandlerThread:375951 [meta.py:probe():211] probe
+2021-09-22 17:00:39,048 DEBUG   HandlerThread:375951 [git.py:repo():33] git repository is invalid
+2021-09-22 17:00:39,048 DEBUG   HandlerThread:375951 [meta.py:_save_code():90] save code
+2021-09-22 17:00:39,048 WARNING HandlerThread:375951 [meta.py:_save_code():92] unable to save code -- program entry not found
+2021-09-22 17:00:39,048 DEBUG   HandlerThread:375951 [meta.py:_save_pip():58] save pip
+2021-09-22 17:00:39,049 DEBUG   HandlerThread:375951 [meta.py:_save_pip():72] save pip done
+2021-09-22 17:00:39,049 DEBUG   HandlerThread:375951 [meta.py:_save_conda():79] save conda
+2021-09-22 17:00:40,031 INFO    Thread-8  :375951 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/files/requirements.txt
+2021-09-22 17:00:40,032 INFO    Thread-8  :375951 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/files/wandb-summary.json
+2021-09-22 17:00:40,032 INFO    Thread-8  :375951 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/files/conda-environment.yaml
+2021-09-22 17:00:45,031 INFO    Thread-8  :375951 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/files/output.log
+2021-09-22 17:00:46,720 DEBUG   HandlerThread:375951 [meta.py:_save_conda():87] save conda done
+2021-09-22 17:00:46,720 DEBUG   HandlerThread:375951 [meta.py:probe():249] probe done
+2021-09-22 17:00:46,768 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-22 17:00:46,768 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: stop_status
+2021-09-22 17:00:47,031 INFO    Thread-8  :375951 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/files/output.log
+2021-09-22 17:00:47,032 INFO    Thread-8  :375951 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/files/conda-environment.yaml
+2021-09-22 17:00:47,032 INFO    Thread-8  :375951 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/files/wandb-metadata.json
+2021-09-22 17:00:47,152 DEBUG   SenderThread:375951 [sender.py:send():182] send: files
+2021-09-22 17:00:47,155 INFO    SenderThread:375951 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-09-22 17:00:47,647 DEBUG   SenderThread:375951 [sender.py:send():182] send: history
+2021-09-22 17:00:47,648 DEBUG   SenderThread:375951 [sender.py:send():182] send: summary
+2021-09-22 17:00:47,648 INFO    SenderThread:375951 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-22 17:00:47,726 DEBUG   SenderThread:375951 [sender.py:send():182] send: history
+2021-09-22 17:00:47,727 DEBUG   SenderThread:375951 [sender.py:send():182] send: summary
+2021-09-22 17:00:47,727 INFO    SenderThread:375951 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-22 17:00:48,032 INFO    Thread-8  :375951 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/files/wandb-summary.json
+2021-09-22 17:00:48,135 INFO    Thread-11 :375951 [upload_job.py:push():137] Uploaded file /tmp/tmpvaxn1rndwandb/3rog6n6w-wandb-metadata.json
+2021-09-22 17:00:48,509 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: log_artifact
+2021-09-22 17:00:48,509 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: log_artifact
+2021-09-22 17:00:48,515 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: pause
+2021-09-22 17:00:48,515 INFO    HandlerThread:375951 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-22 17:00:49,032 INFO    Thread-8  :375951 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/files/output.log
+2021-09-22 17:00:50,769 INFO    Thread-13 :375951 [upload_job.py:push():95] Uploaded file /home/indika/.cache/wandb/artifacts/obj/md5/4b/cb2fc1b05d3b6475b0bc1308267579
+2021-09-22 17:00:51,033 INFO    Thread-8  :375951 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/files/output.log
+2021-09-22 17:00:54,744 DEBUG   SenderThread:375951 [sender.py:send():182] send: stats
+2021-09-22 17:01:02,153 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-22 17:01:02,154 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: stop_status
+2021-09-22 17:01:04,597 WARNING MainThread:375951 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2021-09-22 17:01:05,081 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-22 17:01:05,081 DEBUG   SenderThread:375951 [sender.py:send():182] send: telemetry
+2021-09-22 17:01:05,081 DEBUG   SenderThread:375951 [sender.py:send():182] send: exit
+2021-09-22 17:01:05,081 INFO    SenderThread:375951 [sender.py:send_exit():291] handling exit code: 0
+2021-09-22 17:01:05,081 INFO    SenderThread:375951 [sender.py:send_exit():293] handling runtime: 9
+2021-09-22 17:01:05,086 INFO    SenderThread:375951 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-22 17:01:05,086 INFO    SenderThread:375951 [sender.py:send_exit():303] send defer
+2021-09-22 17:01:05,087 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: poll_exit
+2021-09-22 17:01:05,087 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: defer
+2021-09-22 17:01:05,087 INFO    HandlerThread:375951 [handler.py:handle_request_defer():143] handle defer: 0
+2021-09-22 17:01:05,087 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: defer
+2021-09-22 17:01:05,087 INFO    SenderThread:375951 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-09-22 17:01:05,087 INFO    SenderThread:375951 [sender.py:transition_state():316] send defer: 1
+2021-09-22 17:01:05,087 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: defer
+2021-09-22 17:01:05,087 INFO    HandlerThread:375951 [handler.py:handle_request_defer():143] handle defer: 1
+2021-09-22 17:01:05,088 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: defer
+2021-09-22 17:01:05,088 INFO    SenderThread:375951 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-09-22 17:01:05,088 INFO    SenderThread:375951 [sender.py:transition_state():316] send defer: 2
+2021-09-22 17:01:05,088 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: defer
+2021-09-22 17:01:05,088 INFO    HandlerThread:375951 [handler.py:handle_request_defer():143] handle defer: 2
+2021-09-22 17:01:05,088 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: defer
+2021-09-22 17:01:05,088 INFO    SenderThread:375951 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-09-22 17:01:05,088 INFO    SenderThread:375951 [sender.py:transition_state():316] send defer: 3
+2021-09-22 17:01:05,088 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: defer
+2021-09-22 17:01:05,088 INFO    HandlerThread:375951 [handler.py:handle_request_defer():143] handle defer: 3
+2021-09-22 17:01:05,088 DEBUG   SenderThread:375951 [sender.py:send():182] send: summary
+2021-09-22 17:01:05,089 INFO    SenderThread:375951 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-22 17:01:05,089 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: defer
+2021-09-22 17:01:05,089 INFO    SenderThread:375951 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-09-22 17:01:05,089 INFO    SenderThread:375951 [sender.py:transition_state():316] send defer: 4
+2021-09-22 17:01:05,089 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: defer
+2021-09-22 17:01:05,089 INFO    HandlerThread:375951 [handler.py:handle_request_defer():143] handle defer: 4
+2021-09-22 17:01:05,089 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: defer
+2021-09-22 17:01:05,089 INFO    SenderThread:375951 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-09-22 17:01:05,192 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-22 17:01:05,483 INFO    SenderThread:375951 [sender.py:transition_state():316] send defer: 5
+2021-09-22 17:01:05,484 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: poll_exit
+2021-09-22 17:01:05,484 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: defer
+2021-09-22 17:01:05,484 INFO    HandlerThread:375951 [handler.py:handle_request_defer():143] handle defer: 5
+2021-09-22 17:01:05,485 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: defer
+2021-09-22 17:01:05,485 INFO    SenderThread:375951 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-09-22 17:01:05,485 INFO    SenderThread:375951 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-09-22 17:01:05,585 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-22 17:01:06,036 INFO    SenderThread:375951 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/files/output.log
+2021-09-22 17:01:06,036 INFO    SenderThread:375951 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/files/config.yaml
+2021-09-22 17:01:06,036 INFO    SenderThread:375951 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/files/wandb-summary.json
+2021-09-22 17:01:06,036 INFO    SenderThread:375951 [dir_watcher.py:finish():313] scan: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/files
+2021-09-22 17:01:06,036 INFO    SenderThread:375951 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/files/wandb-metadata.json wandb-metadata.json
+2021-09-22 17:01:06,036 INFO    SenderThread:375951 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/files/wandb-summary.json wandb-summary.json
+2021-09-22 17:01:06,037 INFO    SenderThread:375951 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/files/conda-environment.yaml conda-environment.yaml
+2021-09-22 17:01:06,042 INFO    SenderThread:375951 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/files/output.log output.log
+2021-09-22 17:01:06,043 INFO    SenderThread:375951 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/files/requirements.txt requirements.txt
+2021-09-22 17:01:06,049 INFO    SenderThread:375951 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/files/config.yaml config.yaml
+2021-09-22 17:01:06,049 INFO    SenderThread:375951 [sender.py:transition_state():316] send defer: 6
+2021-09-22 17:01:06,049 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: poll_exit
+2021-09-22 17:01:06,049 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: defer
+2021-09-22 17:01:06,055 INFO    HandlerThread:375951 [handler.py:handle_request_defer():143] handle defer: 6
+2021-09-22 17:01:06,066 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: defer
+2021-09-22 17:01:06,067 INFO    SenderThread:375951 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-09-22 17:01:06,068 INFO    SenderThread:375951 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-22 17:01:06,151 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-22 17:01:06,152 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: poll_exit
+2021-09-22 17:01:06,254 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-22 17:01:06,254 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: poll_exit
+2021-09-22 17:01:06,355 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-22 17:01:06,355 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: poll_exit
+2021-09-22 17:01:06,456 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-22 17:01:06,457 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: poll_exit
+2021-09-22 17:01:06,558 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-22 17:01:06,558 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: poll_exit
+2021-09-22 17:01:06,659 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-22 17:01:06,660 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: poll_exit
+2021-09-22 17:01:06,762 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-22 17:01:06,762 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: poll_exit
+2021-09-22 17:01:06,864 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-22 17:01:06,864 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: poll_exit
+2021-09-22 17:01:06,966 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-22 17:01:06,966 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: poll_exit
+2021-09-22 17:01:07,069 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-22 17:01:07,069 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: poll_exit
+2021-09-22 17:01:07,121 INFO    Thread-17 :375951 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/files/requirements.txt
+2021-09-22 17:01:07,220 INFO    Thread-18 :375951 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/files/config.yaml
+2021-09-22 17:01:07,249 INFO    Thread-14 :375951 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/files/wandb-summary.json
+2021-09-22 17:01:07,283 INFO    Thread-16 :375951 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/files/output.log
+2021-09-22 17:01:07,320 INFO    Thread-15 :375951 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/files/conda-environment.yaml
+2021-09-22 17:01:07,521 INFO    Thread-7  :375951 [sender.py:transition_state():316] send defer: 7
+2021-09-22 17:01:07,521 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: defer
+2021-09-22 17:01:07,521 INFO    HandlerThread:375951 [handler.py:handle_request_defer():143] handle defer: 7
+2021-09-22 17:01:07,522 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: defer
+2021-09-22 17:01:07,522 INFO    SenderThread:375951 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-09-22 17:01:07,791 INFO    SenderThread:375951 [sender.py:transition_state():316] send defer: 8
+2021-09-22 17:01:07,792 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: defer
+2021-09-22 17:01:07,792 INFO    HandlerThread:375951 [handler.py:handle_request_defer():143] handle defer: 8
+2021-09-22 17:01:07,792 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: defer
+2021-09-22 17:01:07,792 INFO    SenderThread:375951 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-09-22 17:01:07,792 INFO    SenderThread:375951 [sender.py:transition_state():316] send defer: 9
+2021-09-22 17:01:07,793 DEBUG   SenderThread:375951 [sender.py:send():182] send: final
+2021-09-22 17:01:07,793 DEBUG   HandlerThread:375951 [handler.py:handle_request():126] handle_request: defer
+2021-09-22 17:01:07,793 DEBUG   SenderThread:375951 [sender.py:send():182] send: footer
+2021-09-22 17:01:07,793 INFO    HandlerThread:375951 [handler.py:handle_request_defer():143] handle defer: 9
+2021-09-22 17:01:07,793 DEBUG   SenderThread:375951 [sender.py:send_request():196] send_request: defer
+2021-09-22 17:01:07,793 INFO    SenderThread:375951 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-09-22 17:01:11,603 WARNING MainThread:375951 [internal.py:is_dead():365] Internal process exiting, parent pid 373900 disappeared
+2021-09-22 17:01:11,603 ERROR   MainThread:375951 [internal.py:wandb_internal():141] Internal process shutdown.
+2021-09-22 17:01:11,793 INFO    WriterThread:375951 [datastore.py:close():281] close: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Chest-X-ray-Images/wandb/run-20210922_170036-1th9xxmj/run-1th9xxmj.wandb
+2021-09-22 17:01:11,794 INFO    SenderThread:375951 [sender.py:finish():979] shutting down sender
+2021-09-22 17:01:11,794 INFO    SenderThread:375951 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-22 17:01:11,794 INFO    SenderThread:375951 [file_pusher.py:join():182] waiting for file pusher
+2021-09-22 17:01:11,798 INFO    HandlerThread:375951 [handler.py:finish():683] shutting down handler
+2021-09-22 17:01:11,798 INFO    MainThread:375951 [internal.py:handle_exit():76] Internal process exited
